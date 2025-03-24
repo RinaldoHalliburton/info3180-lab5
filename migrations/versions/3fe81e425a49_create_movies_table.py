@@ -1,8 +1,8 @@
 """Create movies table
 
-Revision ID: 1c3b5c47bd6e
+Revision ID: 3fe81e425a49
 Revises: 
-Create Date: 2025-03-23 15:48:58.646805
+Create Date: 2025-03-23 21:41:57.871059
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '1c3b5c47bd6e'
+revision = '3fe81e425a49'
 down_revision = None
 branch_labels = None
 depends_on = None
