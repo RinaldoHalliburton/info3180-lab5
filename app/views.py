@@ -54,7 +54,7 @@ def movies():
     
 
 @app.route('/api/v1/movies', methods=['GET'])
-def get_movies():
+def add_movies():
     movies = Movie.query.all()
     movie_list = []
     for movie in movies:
